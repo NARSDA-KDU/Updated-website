@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '@/Components/Header'
 import Hero from '@/Components/Hero'
 import About from '@/Components/About'
-import Member from '@/Components/member'
+import Member from '@/Components/Member'
 import Footer from '@/Components/Footer'
 
 const index = () => {
