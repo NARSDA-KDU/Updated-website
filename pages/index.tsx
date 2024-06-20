@@ -3,16 +3,20 @@ import Header from '@/Components/Header'
 import Hero from '@/Components/Hero'
 import About from '@/Components/About'
 import Member from '@/Components/member'
+import Footer from '@/Components/Footer'
 
 const index = () => {
   return (
     <div>
-      <div className="bg-[url('/img.jpg')] bg-cover bg " >  <Header/>
+      <div className="bg-[url('/img-1.jpg')] bg-cover bg " >  
+      <Header/>
     <Hero/>
+    <About/>
     </div>
   
-    <About/>
+    
     <Member/>
+    <Footer/>
       
     </div>
   )
